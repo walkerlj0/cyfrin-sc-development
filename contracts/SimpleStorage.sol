@@ -9,8 +9,10 @@ contract SimpleStorage {
     bytes32 favoriteBytes32 = "dog"; // 0xbcf2518, the hex of bytes, but can be represented by strings
 
     uint256 public favoriteNumber; // default value is 0
+    uint256 public otherNumber;
 
     function store(uint256 _favoriteNumber)  public {
         favoriteNumber = _favoriteNumber;
+        otherNumber = favoriteNumber + 11;
     }
 }

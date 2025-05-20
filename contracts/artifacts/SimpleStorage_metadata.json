@@ -19,6 +19,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "otherNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x0d5b53a20483dba3e17479ff2121a6bec25c9c01bee933779876ad69c0e170a2",
+			"keccak256": "0x3e4e0948f0499e6f7eb379fcb97ce8c8411f1c80b38b8d16cfd02c22811be270",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://23c727484d827b7de337f3a6d9f8c906e73d4575c6ecb399495d729dc746d029",
-				"dweb:/ipfs/QmZRq2ZbWd7Xb44uYxx9RHUTK7ios2FaXCvMmgvvP8rMzp"
+				"bzz-raw://fa3608184483d8cc6789cdfa804f5c26e22f09f368caf1702cfc761219431da8",
+				"dweb:/ipfs/QmUjYChn6jjPzH5t2GfZKjoy4869VX3uResq6giSdDJVtn"
 			]
 		}
 	},

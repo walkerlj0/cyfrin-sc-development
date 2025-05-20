@@ -8,4 +8,4 @@ Tyes of Functions
 Public - Visible external & internal - other contracts/ users can call it (getter func created for state var)
 Private - Only available current contract (still on chain, seeable)
 External - only for func, not var. Another func in same contract cannot call this func 
-Internal - only func in same contract cal call
+Internal - only func in same contract can call (and child contracts)
