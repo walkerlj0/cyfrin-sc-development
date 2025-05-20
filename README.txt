@@ -5,3 +5,4 @@ This project i screated alongside the Cyfrin Updraft Course: Solidity Smart Cont
 
 
 ### Notes
+Changed readme to .md
