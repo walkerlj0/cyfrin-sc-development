@@ -1,5 +1,5 @@
 {
-	"id": "f668049b565b27e9eee15a0b21c7acbf",
+	"id": "e616c1f7b088b45573dadea35885b914",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.19",
 	"solcLongVersion": "0.8.19+commit.7dd6d404",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"contracts/SimpleStorage.sol": {
-				"content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.19;"
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.19; //. 0.8.18 "
 			}
 		},
 		"settings": {
@@ -59,7 +59,7 @@
 							"src": "32:23:0"
 						}
 					],
-					"src": "32:23:0"
+					"src": "32:35:0"
 				},
 				"id": 0
 			}
