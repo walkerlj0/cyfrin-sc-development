@@ -3,7 +3,7 @@ pragma solidity 0.8.19; //. 0.8.18 is a stable solidity version
 
 contract SimpleStorage {
     uint256 public favoriteNumber; // default value is 0
-    uint256 public otherNumber;
+    uint256[] listOfFavoriteNUmbers;
 
     function store(uint256 _favoriteNumber)  public {
         favoriteNumber = _favoriteNumber;
