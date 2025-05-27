@@ -1,0 +1,25 @@
+{
+  "name": "cyfrin-sc-development",
+  "version": "1.0.0",
+  "description": "This project is 2created alongside the Cyfrin Updraft Course: Solidity Smart Contract Development [https://updraft.cyfrin.io/courses/solidity/simple-storage/create-solidity-smart-contract](https://updraft.cyfrin.io/courses/solidity/simple-storage/create-solidity-smart-contract)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerlj0/cyfrin-sc-development.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/walkerlj0/cyfrin-sc-development/issues"
+  },
+  "homepage": "https://github.com/walkerlj0/cyfrin-sc-development#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.24.1"
+  }
+}
