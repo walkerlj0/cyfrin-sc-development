@@ -13,5 +13,5 @@ contract SimpleStorage {
     // pure and view don't cost gas/ do anything on-chain. neither can update state, and view can't even read state
     function retrieve() public view returns(uint256){
         return favoriteNumber;
-    } 
+    } //small change
 }
