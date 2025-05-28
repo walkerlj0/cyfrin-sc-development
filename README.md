@@ -9,3 +9,29 @@ Public - Visible external & internal - other contracts/ users can call it (gette
 Private - Only available current contract (still on chain, seeable)
 External - only for func, not var. Another func in same contract cannot call this func 
 Internal - only func in same contract can call (and child contracts)
+
+## Using Hardhat in VSCode
+
+#### Installation
+**Compile all contracts**
+npx hardhat compile
+
+**Auto-compile on save (in another terminal)**
+npx hardhat compile --watch
+
+#### Compile Like Remix
+**Compile all contracts**
+npx hardhat compile
+
+**Auto-compile on save (in another terminal)**
+npx hardhat compile --watch
+
+#### Test Your Contracts
+**Run tests**
+npx hardhat test
+
+**Run specific test**
+npx hardhat test test/SimpleStorage.test.js
+
+**With gas reporting**
+REPORT_GAS=true npx hardhat test
