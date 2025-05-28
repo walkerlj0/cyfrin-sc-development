@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19; //. 0.8.18 is a stable solidity version
+pragma solidity ^0.8.19; //. 0.8.18 is a stable solidity version
 
 contract SimpleStorage {
     //implicitly storage var, declared outside a func
@@ -11,6 +11,8 @@ contract SimpleStorage {
     }
     Person[] public listOfPeople;
 
+    // look up a name and see corresponding fav number
+    mapping(string => uint256) public nameToFavoriteNumber;
 
     function store(uint256 _favoriteNumber)  public {
         myFavoriteNumber = _favoriteNumber;
@@ -21,8 +23,9 @@ contract SimpleStorage {
 
     } 
 
-    function addPerson(string memory _name, uint256 _favorieNumber) public{
-        _name = "Linus";
-        listOfPeople.push(Person(_favorieNumber, _name)); 
+    function addPerson(string memory _name, uint256 _favoriteNumber) public {
+        listOfPeople.push(Person(_favoriteNumber, _name));
+        //maps name to associated number [] imply key 
+        nameToFavoriteNumber[_name] = _favoriteNumber;
     }
 }
