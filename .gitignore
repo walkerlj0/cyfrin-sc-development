@@ -44,3 +44,28 @@ out/
 # Temporary folders
 tmp/
 temp/
+
+# Hardhat files
+cache/
+artifacts/
+build-info/
+
+# Other common ignores for Solidity projects
+node_modules/
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+*.log
+.DS_Store
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
