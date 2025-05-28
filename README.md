@@ -6,6 +6,8 @@ This project is 2created alongside the Cyfrin Updraft Course: Solidity Smart Con
 ## Deployments
 Arbitrum Sepolia (421614) Testnet
 **May 28**
+[https://sepolia.arbiscan.io/address/0xc2bad38d943dfd0b2a43c93a7834c55ec57fdac1](https://sepolia.arbiscan.io/address/0xc2bad38d943dfd0b2a43c93a7834c55ec57fdac1)
+
 status	0x1 Transaction mined and execution succeed
 transaction hash	0xf666dcddddf87473b867d9f82ebd8445a5b517ed5a0d5868784baf50f3982015
 block hash	0x3e0c4eddcb20fa91f7afe425b12e02dc0e512af63b06098354a0041ab5886025
